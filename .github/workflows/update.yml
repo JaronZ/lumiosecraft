@@ -1,0 +1,35 @@
+name: Update
+on:
+  workflow_dispatch:
+
+jobs:
+  parse-current-modpacks:
+    name: Parse current modpacks to a list
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    outputs:
+      modpack_folders: ${{ steps.list_modpacks.outputs.modpack_folders }}
+      modpack_names: ${{ steps.list_modpacks.outputs.modpack_names }}
+    steps:
+      - name: Check Out Git Repository
+        uses: actions/checkout@v4
+      - name: List Modpacks
+        id: list_modpacks
+        run: |
+          modpackFolders=()
+          modpackNames=()
+          for folder in packages/*/modpack; do
+            if [ -d "$folder" ]; then
+              if [ -e "$folder/pack.toml" ]; then
+                modpackFolders+=("$folder")
+                modpackNames+=($(grep -E 'name = ".*"' "$folder/pack.toml" | grep -o -E '".*"' | grep -o -E '[^"].*[^"]' | tr '[:upper:]' '[:lower:]'))
+              fi
+            fi
+          done
+
+          echo "modpack_folders=$(jq --compact-output --null-input '$ARGS.positional' --args -- "${modpackFolders[@]}")" >> "$GITHUB_OUTPUT"
+          echo "modpack_mames=$(jq --compact-output --null-input '$ARGS.positional' --args -- "${modpackNames[@]}")" >> "$GITHUB_OUTPUT"
+      - name: Current detected modpacks
+        run: |
+          echo "::notice ::⚙ Current detected modpacks: ${{ steps.list_modpacks.outputs.modpack_names }}"

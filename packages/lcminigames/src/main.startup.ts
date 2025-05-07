@@ -1,0 +1,10 @@
+//requires: cobblemon
+import "./lib/startup";
+import "./lib/DefaultFontInfo";
+import "./lib/util";
+import "./lib/minigames/init";
+import "./lib/pokemon/Pokemon";
+import "./lib/pokemon/PokemonTypes";
+import "./lib/minigames/generation";
+import "./lib/minigames/scrambled";
+import "./lib/minigames/super_effective";
