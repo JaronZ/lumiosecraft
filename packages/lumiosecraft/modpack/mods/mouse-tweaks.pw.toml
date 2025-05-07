@@ -1,0 +1,18 @@
+name = "Mouse Tweaks"
+filename = "MouseTweaks-neoforge-mc1.21-2.26.1.jar"
+side = "client"
+
+[download]
+hash-format = "sha1"
+hash = "6dae57f4f50f7808d2ed9a18f6cd1c0d4640c6bc"
+mode = "metadata:curseforge"
+
+[option]
+optional = true
+default = true
+description = "Mouse Tweaks replaces the standard RMB dragging mechanic, adds two new LMB dragging mechanics and an ability to quickly move items with the scroll wheel."
+
+[update]
+[update.curseforge]
+file-id = 5637846
+project-id = 60089
