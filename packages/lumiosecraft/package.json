@@ -1,0 +1,23 @@
+{
+  "name": "lumiosecraft",
+  "private": true,
+  "version": "0.7.1",
+  "description": "",
+  "author": "@jaronz",
+  "scripts": {
+    "build": "tsup && run-s \"postbuild:*\"",
+    "postbuild:copy": "node ../../scripts/copy-kubejs-files.mjs modpack",
+    "postbuild:suffix": "node ../../scripts/remove-type-suffix.mjs modpack",
+    "postbuild:headers": "node ../../scripts/inject-kubejs-headers.mjs modpack",
+    "lint": "eslint modpack/src --ext mjs,js,ts,tsx --fix",
+    "bump": "cliff-jumper",
+    "check-update": "cliff-jumper --dry-run",
+    "test": "vitest run"
+  },
+  "devDependencies": {
+    "@favware/cliff-jumper": "^6.0.0",
+    "npm-run-all2": "^8.0.2",
+    "tsup": "^8.5.0",
+    "typescript": "^5.8.3"
+  }
+}
