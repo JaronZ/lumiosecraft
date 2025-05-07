@@ -1,0 +1,20 @@
+# NodeJS
+node_modules/
+
+# KubeJS files
+.probe/
+kubejs/
+!/kubejs/
+
+# Yarn files
+.yarn/install-state.gz
+.yarn/build-state.yml
+
+# Turbo
+.turbo/
+
+# Coverage
+coverage/
+
+# TypeScript
+tsconfig.tsbuildinfo

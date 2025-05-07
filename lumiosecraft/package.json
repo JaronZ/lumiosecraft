@@ -1,0 +1,20 @@
+{
+  "name": "lumiosecraft",
+  "private": true,
+  "version": "0.7.1",
+  "description": "",
+  "author": "@jaronz",
+  "scripts": {
+    "build": "tsup",
+    "typecheck": "tsc -b modpack/src",
+    "lint": "eslint modpack/src --ext mjs,js,ts,tsx --fix",
+    "bump": "cliff-jumper",
+    "check-update": "cliff-jumper --dry-run",
+    "test": "vitest run"
+  },
+  "devDependencies": {
+    "@favware/cliff-jumper": "^6.0.0",
+    "tsup": "^8.4.0",
+    "typescript": "^5.8.3"
+  }
+}
