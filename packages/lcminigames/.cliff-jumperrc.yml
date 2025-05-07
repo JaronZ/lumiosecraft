@@ -1,0 +1,10 @@
+name: lcminigames
+org: jaronz
+install: true
+packagePath: packages/lcminigames
+identifierBase: false
+pushTag: true
+githubRelease: true
+githubReleaseLatest: true
+gitRepo: jaronz/lumiosecraft
+gitHostVariant: github

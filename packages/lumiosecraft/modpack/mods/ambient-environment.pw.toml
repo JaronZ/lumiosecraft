@@ -1,0 +1,18 @@
+name = "Ambient Environment"
+filename = "AmbientEnvironment-neoforge-1.21.1-18.0.0.2.jar"
+side = "client"
+
+[download]
+hash-format = "sha1"
+hash = "3a00ec1170b38e75a502dcc46038397f8fd9b305"
+mode = "metadata:curseforge"
+
+[option]
+optional = true
+default = false
+description = "Adds ambient color noise to the biome colors of the game. This means that things like grass, water, and leaves will have very subtle differences in color based on where they are in the world."
+
+[update]
+[update.curseforge]
+file-id = 5799489
+project-id = 320163

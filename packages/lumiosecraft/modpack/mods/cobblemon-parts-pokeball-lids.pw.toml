@@ -1,0 +1,13 @@
+name = "Cobblemon Parts- Pokeball Lids"
+filename = "cobblemonparts-1.3.1-NEO1.21.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "e5da18a915efd830da5af4bc4de6d8ae5a613248"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6357713
+project-id = 1212255

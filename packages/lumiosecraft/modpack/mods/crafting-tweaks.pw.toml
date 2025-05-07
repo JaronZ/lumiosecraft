@@ -1,0 +1,18 @@
+name = "Crafting Tweaks"
+filename = "craftingtweaks-neoforge-1.21.1-21.1.5.jar"
+side = "client"
+
+[download]
+hash-format = "sha1"
+hash = "82b9202678501dda89a5a405c40b5242965148ca"
+mode = "metadata:curseforge"
+
+[option]
+optional = true
+default = false
+description = "This mod adds buttons to many supported Crafting Tables (including modded ones) allowing you to quickly rotate, balance or clear the crafting grid."
+
+[update]
+[update.curseforge]
+file-id = 6023041
+project-id = 233071

@@ -1,0 +1,13 @@
+name = "Cobblemon: Extra Structures"
+filename = "cobblemonextrastructures-1.21.1-1.0.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "db398e7e88677511d4278eeaa47092b5ebe3e84e"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6208560
+project-id = 1202622

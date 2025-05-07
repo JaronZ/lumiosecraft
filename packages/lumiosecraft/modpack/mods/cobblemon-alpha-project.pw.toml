@@ -1,0 +1,13 @@
+name = "Cobblemon Alpha Project"
+filename = "CobblemonAlphasNeoforge-1.1+1.6.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "ae59a424287eca477b97029fbd8747c7213e797f"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6243664
+project-id = 1203085

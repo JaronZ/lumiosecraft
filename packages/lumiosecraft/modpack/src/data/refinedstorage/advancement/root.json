@@ -1,0 +1,42 @@
+{
+    "display": {
+      "icon": {
+        "id": "refinedstorage:creative_controller"
+      },
+      "title": {
+        "translate": "mod.refinedstorage"
+      },
+      "description": {
+        "translate": "advancements.refinedstorage.root.description"
+      },
+      "background": "refinedstorage:textures/gui/advancements.png"
+    },
+    "criteria": {
+      "controller_in_inventory": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": "#refinedstorage:controllers"
+            }
+          ]
+        }
+      },
+      "creative_controller_in_inventory": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": "#refinedstorage:creative_controllers"
+            }
+          ]
+        }
+      }
+    },
+    "requirements": [
+      [
+        "controller_in_inventory",
+        "creative_controller_in_inventory"
+      ]
+    ]
+  }

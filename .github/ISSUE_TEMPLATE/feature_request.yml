@@ -1,0 +1,13 @@
+name: Feature Request
+description: "Submit a request for a feature to be added to the server."
+assignees: ["jaronz"]
+labels: ["type: feature"]
+title: "[FEAT] "
+
+body:
+  - type: textarea
+    attributes:
+      label: Feature
+      description: Describe the feature
+    validations:
+      required: true

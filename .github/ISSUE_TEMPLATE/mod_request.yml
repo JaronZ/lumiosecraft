@@ -1,0 +1,52 @@
+name: Mod Request
+description: Request for a mod to be added to the server or for clients.
+labels: ["type: mod"]
+assignees: ["jaronz", "liekevk"]
+title: "[MOD] "
+
+body:
+  - type: dropdown
+    id: users
+    attributes:
+      label: Mod Users
+      description: Is this mod for the server, players of the server, or both?
+      multiple: true
+      options:
+        - Server
+        - Players
+    validations:
+      required: false
+
+  - type: textarea
+    id: mod
+    attributes:
+      label: Mod Features
+      description: "What should the mod add to the server / clients?"
+      placeholder: "Gives the players backpacks, so they have more storage."
+    validations:
+      required: true
+
+  - type: input
+    id: mod-name
+    attributes:
+      label: Mod name
+      description: "If you have a specific mod in mind, what is the full name of the mod you want added?"
+      placeholder: "Applied Energetics 2"
+    validations:
+      required: false
+
+  - type: input
+    id: mod-link
+    attributes:
+      label: Mod Link
+      description: "If you have a link to the mod, please add it here."
+      placeholder: "https://www.curseforge.com/minecraft/mc-mods/applied-energistics-2"
+    validations:
+      required: false
+
+  - type: input
+    id: mod-version
+    attributes:
+      label: Mod Version
+      description: "If you have a specific version of the mod you would like us to install, please add it here."
+      placeholder: "AE2 15.3.2-beta"

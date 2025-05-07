@@ -1,0 +1,13 @@
+name = "Way Too Many Ingredients [Cobblemon Sidemod]"
+filename = "wtmi-neoforge-1.0-SNAPSHOT.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "b6321954938c5d2a29699d58a2531ad6928e04ca"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6331930
+project-id = 1084149

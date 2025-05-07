@@ -1,0 +1,2 @@
+global.lcminigames = {};
+const lcminigames = {};
