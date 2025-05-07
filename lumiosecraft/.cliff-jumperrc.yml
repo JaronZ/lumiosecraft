@@ -1,0 +1,10 @@
+name: lumiosecraft
+org: jaronz
+install: true
+packagePath: lumiosecraft
+identifierBase: false
+pushTag: true
+githubRelease: true
+githubReleaseLatest: true
+gitRepo: jaronz/lumiosecraft
+gitHostVariant: github

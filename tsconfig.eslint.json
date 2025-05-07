@@ -1,0 +1,13 @@
+{
+    "extends": "./tsconfig.base.json",
+    "include": [
+        "eslint.config.mjs",
+        "prettier.config.mjs",
+		"vitest.workspace.ts",
+		"vitest.config.ts",
+		"commitlint.config.mjs",
+        "kubejs/",
+        "lumiosecraft/",
+        "scripts/"
+    ]
+}

@@ -1,0 +1,21 @@
+{
+  "name": "lcminigames",
+  "private": true,
+  "version": "0.1.0",
+  "description": "",
+  "author": "@jaronz",
+  "scripts": {
+    "build": "tsup",
+    "typecheck": "tsc -b src",
+    "lint": "eslint src --ext mjs,js,ts,tsx --fix",
+    "bump": "cliff-jumper",
+    "check-update": "cliff-jumper --dry-run",
+    "test": "vitest run"
+  },
+  "devDependencies": {
+    "@favware/cliff-jumper": "^6.0.0",
+    "@swc/core": "^1.11.24",
+    "tsup": "^8.4.0",
+    "typescript": "^5.8.3"
+  }
+}
