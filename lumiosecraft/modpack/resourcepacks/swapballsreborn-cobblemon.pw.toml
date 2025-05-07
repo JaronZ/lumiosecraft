@@ -1,0 +1,13 @@
+name = "SwapBallsReborn [Cobblemon]"
+filename = "SwapBallsReborn 1.1 RP.zip"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/gGkKnWjU/versions/F2wC74mE/SwapBallsReborn%201.1%20RP.zip"
+hash-format = "sha512"
+hash = "a4781af1186071a3385b9d4d4b998a22c55ac83d8a152e3a12234908b932f60ba60d0a908b26dc6bb32dd111e56d26c5d284bd9e5f7601a3a7b961cc0fb60c00"
+
+[update]
+[update.modrinth]
+mod-id = "gGkKnWjU"
+version = "F2wC74mE"
