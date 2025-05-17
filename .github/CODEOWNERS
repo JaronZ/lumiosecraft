@@ -1,2 +1,3 @@
-/lumiosecraft/modpack/**/* @jaronz
-/kubejs/minigames/**/*.ts @jaronz @a-bekar
+# Packages
+/packages/lumiosecraft/ @jaronz
+/packages/lcminigames/ @jaronz @a-bekar

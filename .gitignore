@@ -20,3 +20,6 @@ tsconfig.tsbuildinfo
 
 # Eclude precommit hooks config
 .pre-commit-config.yaml
+
+*.jar
+/install/
