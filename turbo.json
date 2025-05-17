@@ -1,14 +1,14 @@
 {
-    "$schema": "https://turbo.build/schema.json",
-    "tasks": {
-        "build": {
-            "dependsOn": ["^build"],
-            "outputs": ["**/kubejs/**"]
-        },
-        "lint": {
-            "dependsOn": [],
-            "outputs": []
-        },
+	"$schema": "https://turbo.build/schema.json",
+	"tasks": {
+		"build": {
+			"dependsOn": ["^build"],
+			"outputs": ["**/kubejs/**"]
+		},
+		"lint": {
+			"dependsOn": [],
+			"outputs": []
+		},
 		"bump": {
 			"dependsOn": [],
 			"outputs": ["CHANGELOG.md"]
@@ -18,11 +18,17 @@
 			"outputs": []
 		},
 		"test": {
-			"dependsOn": [
-				"lumiosecraft#build",
-				"lcminigames#build"
-			],
+			"dependsOn": ["lumiosecraft#build", "lcminigames#build"],
 			"outputs": ["coverage/**"]
+		},
+		"predev": {
+			"dependsOn": ["build"],
+			"outputs": [
+				"../../environment/kubejs/**/*",
+				"../../environment/client/**/*",
+				"../../environment/server/**/*",
+				"../../environment/libs/**/*"
+			]
 		}
-    }
+	}
 }
