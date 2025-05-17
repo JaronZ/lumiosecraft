@@ -13,7 +13,7 @@ jobs:
       modpack_names: ${{ steps.list_modpacks.outputs.modpack_names }}
     steps:
       - name: Check Out Git Repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4
       - name: List Modpacks
         id: list_modpacks
         run: |
@@ -53,13 +53,13 @@ jobs:
       pull-requests: write
     steps:
       - name: Checkout Repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4
       - name: Install nix
-        uses: cachix/install-nix-action@v31
+        uses: cachix/install-nix-action@526118121621777ccd86f79b04685a9319637641 # v31
       - name: Update Mods with Packwiz
         run: nix develop --command packwiz update -a -y
       - name: Push the updated mod list via a Pull Request
-        uses: peter-evans/create-pull-request@v6
+        uses: peter-evans/create-pull-request@c5a7806660adbe173f04e3e038b0ccdcd758773c # v6
         with:
           branch: create-pull-request/patch-${{ matrix.modpack_name }}
           commit-message: "update(${{ matrix.modpack_name }}): updated mods"
