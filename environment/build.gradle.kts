@@ -5,7 +5,7 @@ import kotlin.io.path.listDirectoryEntries
 plugins {
     id("java-library")
     id("idea")
-    id("net.neoforged.moddev") version "2.0.78"
+    id("net.neoforged.moddev") version "2.0.88"
 }
 
 // gradle.properties
