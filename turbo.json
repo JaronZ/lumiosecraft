@@ -23,12 +23,7 @@
 		},
 		"predev": {
 			"dependsOn": ["build"],
-			"outputs": [
-				"../../environment/kubejs/**/*",
-				"../../environment/client/**/*",
-				"../../environment/server/**/*",
-				"../../environment/libs/**/*"
-			]
+			"outputs": []
 		}
 	}
 }
