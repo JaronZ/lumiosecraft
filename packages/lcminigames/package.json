@@ -14,8 +14,8 @@
 		"check-update": "cliff-jumper --dry-run",
 		"test": "vitest run",
 		"predev": "yarn build && ../../bin/copy-kubejs",
-		"dev:client": "yarn predev && cd ../../environment && ./gradlew clean build :runClient",
-		"dev:server": "yarn predev && cd ../../environment && ./gradlew clean build :runServer"
+		"dev:client": "yarn setup:client && yarn clean:client && yarn predev && yarn env:client",
+		"dev:server": "yarn setup:server && yarn clean:server && yarn predev && yarn env:server"
 	},
 	"devDependencies": {
 		"@favware/cliff-jumper": "^6.0.0",

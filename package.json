@@ -10,12 +10,16 @@
 		"format": "prettier --ignore-path=.prettierignore --write \"packages/**/{src,test,scripts}/**/*.{mjs,ts,js}\"",
 		"check-update": "turbo run check-update",
 		"test": "vitest run",
-		"predev": "yarn clean:env && turbo run predev",
+		"predev:client": "yarn setup:client && clean:client && turbo run predev",
+		"predev:server": "yarn setup:server && clean:server && turbo run predev",
 		"dev:client": "yarn predev && yarn env:client",
 		"dev:server": "yarn predev && yarn env:server",
-		"clean:env": "cd environment && ./gradlew clean",
-		"env:client": "cd environment && ./gradlew build :runClient",
-		"env:server": "cd environment && ./gradlew build :runServer"
+		"clean:client": "cd environment && ./clean-client",
+		"clean:server": "cd environment && ./clean-server",
+		"setup:client": "cd environment && ./setup-client",
+		"setup:server": "cd environment && ./setup-server",
+		"env:client": "cd environment && ./launch-client",
+		"env:server": "cd environment && ./launch-server"
 	},
 	"devDependencies": {
 		"@commitlint/cli": "^19.8.1",
