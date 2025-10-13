@@ -334,6 +334,11 @@ hash = "9918483a9d2c3c21d03e1f55de1c4b3564ff1124dbff9faf2ca6c8ce266104ab"
 metafile = true
 
 [[files]]
+file = "mods/create-vibrant-vaults.pw.toml"
+hash = "edfc5cfd0224c45873c197c9352eadbe17171f737784581fe32ab963f59f27a3"
+metafile = true
+
+[[files]]
 file = "mods/create-waystones-recipes.pw.toml"
 hash = "12436692cd54822658ea304758483411e0bb999a6a339fa1b273d8ccaef05881"
 metafile = true
