@@ -64,6 +64,11 @@ hash = "6b75f58fa7f92e7a62bf2038e44509372b4c2b59dc41f8daa9719854191cec62"
 metafile = true
 
 [[files]]
+file = "mods/amendments.pw.toml"
+hash = "02b15a704afe8e8eac4436a1c8c1de8a997294bae0ebe579a9e3fb0e1f023119"
+metafile = true
+
+[[files]]
 file = "mods/appleskin.pw.toml"
 hash = "9c4c26fe58e13e1a9c99b3486259e9ea2a3785da4742609e53b53d68d6a0e55a"
 metafile = true
@@ -666,6 +671,11 @@ metafile = true
 [[files]]
 file = "mods/searchables.pw.toml"
 hash = "b210b54498abff891f524a0ce32b7b81bfc88043604065bd4ece9e71c36427f4"
+metafile = true
+
+[[files]]
+file = "mods/selene.pw.toml"
+hash = "ae6b37c258413c12b87313ca99bfacbb5ec14636b89a06bbecebb4e389e97c02"
 metafile = true
 
 [[files]]
