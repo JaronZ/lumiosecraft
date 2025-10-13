@@ -769,6 +769,11 @@ hash = "9d850f339f573961ceffa688f221accedb8c0c36746a5377df872a110f39e3e5"
 metafile = true
 
 [[files]]
+file = "mods/yungs-better-dungeons-neoforge.pw.toml"
+hash = "b6527599723cd47781e0e2eb029ba1858ecd000e5d6a972c5497838b6fb967bb"
+metafile = true
+
+[[files]]
 file = "resourcepacks/allthemons.pw.toml"
 hash = "ac5e57bef7fd03ecc60cbb0283f975dd3b4bc9ce2f6c911b3c5433f01a7d5d38"
 metafile = true
