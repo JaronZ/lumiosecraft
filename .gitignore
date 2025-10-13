@@ -22,4 +22,6 @@ tsconfig.tsbuildinfo
 .pre-commit-config.yaml
 
 *.jar
+*.log
 /install/
+/environment/
