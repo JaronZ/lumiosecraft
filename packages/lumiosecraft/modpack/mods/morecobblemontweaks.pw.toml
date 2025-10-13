@@ -1,13 +1,13 @@
 name = "MoreCobblemonTweaks"
-filename = "MoreCobblemonTweaks-neoforge-1.0.2.jar"
+filename = "MoreCobblemonTweaks-neoforge-1.1.4.jar"
 side = "client"
 
 [download]
 hash-format = "sha1"
-hash = "2f0605b20548aec12974061fc7414176d352fae2"
+hash = "f7db508dfea909e5fbbdf06499e735e07bd96816"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 6028338
+file-id = 6938080
 project-id = 1082538
