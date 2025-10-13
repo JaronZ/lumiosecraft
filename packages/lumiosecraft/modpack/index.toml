@@ -584,6 +584,11 @@ hash = "ab739f432afbca1d1980a17535b3d568f795a41148e9110868a7377a67f50d4c"
 metafile = true
 
 [[files]]
+file = "mods/nyfs-quivers.pw.toml"
+hash = "8d8d0dc543f337407d41de099708a300bc388b592a711be8efe19930e24f006a"
+metafile = true
+
+[[files]]
 file = "mods/oh-the-biomes-weve-gone.pw.toml"
 hash = "c5c976ed2631dcf28ee9ca6ae601bc12fa993942e4b2a3b9334b23dd9dedeba8"
 metafile = true
