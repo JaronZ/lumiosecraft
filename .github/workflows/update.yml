@@ -13,7 +13,7 @@ jobs:
       modpack_names: ${{ steps.list_modpacks.outputs.modpack_names }}
     steps:
       - name: Check Out Git Repository
-        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4
+        uses: actions/checkout@08eba0b27e820071cde6df949e0beb9ba4906955 # v4
       - name: List Modpacks
         id: list_modpacks
         run: |
@@ -53,7 +53,7 @@ jobs:
       pull-requests: write
     steps:
       - name: Checkout Repository
-        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4
+        uses: actions/checkout@08eba0b27e820071cde6df949e0beb9ba4906955 # v4
       - name: Install nix
         uses: cachix/install-nix-action@9280e7aca88deada44c930f1e2c78e21c3ae3edd # v31
       - name: Update Mods with Packwiz
