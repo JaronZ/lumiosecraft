@@ -39,7 +39,7 @@ await Promise.all(
 		"client/config/",
 		"client/defaultconfigs/",
 		"client/resourcepacks/",
-		"client/shaderpacks/a"
+		"client/shaderpacks/"
 	].map(async (path) => {
 		const url = new URL(path, installDir);
 		if (existsSync(url)) {
