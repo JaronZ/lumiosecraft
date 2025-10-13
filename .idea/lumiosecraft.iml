@@ -10,6 +10,8 @@
       <excludeFolder url="file://$MODULE_DIR$/packages/lcminigames/coverage" />
       <excludeFolder url="file://$MODULE_DIR$/packages/lcminigames/kubejs" />
       <excludeFolder url="file://$MODULE_DIR$/packages/lumiosecraft/.turbo" />
+      <excludeFolder url="file://$MODULE_DIR$/environment" />
+      <excludeFolder url="file://$MODULE_DIR$/install" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

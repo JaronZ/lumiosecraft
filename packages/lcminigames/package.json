@@ -13,7 +13,10 @@
 		"bump": "cliff-jumper",
 		"check-update": "cliff-jumper --dry-run",
 		"test": "vitest run",
-		"predev": "yarn build && ../../bin/copy-kubejs",
+		"export": "yarn build && zip -r minigames.zip kubejs",
+		"ci:curseforge:export": "yarn build && zip -r export/curseforge.zip kubejs",
+		"predev": "yarn predev:kubejs",
+		"predev:kubejs": "yarn build && node ../../scripts/copy-kubejs.mjs",
 		"dev:client": "yarn setup:client && yarn clean:client && yarn predev && yarn env:client",
 		"dev:server": "yarn setup:server && yarn clean:server && yarn predev && yarn env:server"
 	},
