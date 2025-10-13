@@ -359,6 +359,11 @@ hash = "f619c1ed2e189f9d482d081411fccee4bd26c05cce52a5db914f1989303f080c"
 metafile = true
 
 [[files]]
+file = "mods/easy-villagers.pw.toml"
+hash = "8b353055fb8375fff4f2ced45cc3f76dd01071b7d51726bc945ad0feb5d26386"
+metafile = true
+
+[[files]]
 file = "mods/elytra-slot.pw.toml"
 hash = "1dffb7b72d41c7457849c09715e662ae3aebcef1988ce8f6fc060c46170b1a4a"
 metafile = true
