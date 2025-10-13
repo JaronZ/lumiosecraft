@@ -794,6 +794,11 @@ hash = "66100a73e80ebb36aa78789dbcd49b2485459e834b75f7b2e893cc11c06f9a3f"
 metafile = true
 
 [[files]]
+file = "mods/yungs-better-ocean-monuments-neoforge.pw.toml"
+hash = "aa8b30f1fedc700205ffb96c2a92e0deedbbe42f3d95d64c2fcc1228fdd049aa"
+metafile = true
+
+[[files]]
 file = "resourcepacks/allthemons.pw.toml"
 hash = "ac5e57bef7fd03ecc60cbb0283f975dd3b4bc9ce2f6c911b3c5433f01a7d5d38"
 metafile = true
