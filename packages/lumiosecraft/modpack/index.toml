@@ -74,6 +74,11 @@ hash = "6d3a1c92eee4dd671253c41ec000ae48064a33c45263d6adce5cad466395169d"
 metafile = true
 
 [[files]]
+file = "mods/baguettelib.pw.toml"
+hash = "d4803e74ef130ad490adfe0013723b38a60201cb3e583aea85758dfb253592ef"
+metafile = true
+
+[[files]]
 file = "mods/balm.pw.toml"
 hash = "32220d2f0275dd71f089742921c86c8964186a8d9610434f53f67f2e459c2ef2"
 metafile = true
@@ -206,6 +211,11 @@ metafile = true
 [[files]]
 file = "mods/cobblemon-spawn-notification.pw.toml"
 hash = "3947119f6fde2f8efc3b06cb7619a5a94924943451254e74d1ab8d2bc085fe9f"
+metafile = true
+
+[[files]]
+file = "mods/cobblemon-tim-core.pw.toml"
+hash = "585e5ec3e29f01680a0ea51d60fd8ae38b8b150f8853b392831ce117fd05f890"
 metafile = true
 
 [[files]]
