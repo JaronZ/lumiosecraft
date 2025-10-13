@@ -779,6 +779,11 @@ hash = "2e763194942381a7829dc6eb0503930a97408ee31ad7d05c77c6d094499e40d3"
 metafile = true
 
 [[files]]
+file = "mods/yungs-better-jungle-temples-neoforge.pw.toml"
+hash = "6dc8b6b822d296d026dc2685f57da95746e57f30f501640801546ba7a259b520"
+metafile = true
+
+[[files]]
 file = "resourcepacks/allthemons.pw.toml"
 hash = "ac5e57bef7fd03ecc60cbb0283f975dd3b4bc9ce2f6c911b3c5433f01a7d5d38"
 metafile = true
