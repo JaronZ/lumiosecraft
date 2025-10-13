@@ -8,7 +8,7 @@
 		"build": "tsup && run-s \"postbuild:*\"",
 		"postbuild:copy": "node ../../scripts/copy-kubejs-files.mjs",
 		"postbuild:suffix": "node ../../scripts/remove-type-suffix.mjs",
-		"postbuild:headers": "node ../../scripts/inject-kubejs-headers.mjs",
+		"postbuild:headers": "node ../../scripts/inject-kubejs-headers.mjs \"\" lcminigames",
 		"lint": "eslint src --ext mjs,js,ts,tsx --fix",
 		"bump": "cliff-jumper",
 		"check-update": "cliff-jumper --dry-run",
