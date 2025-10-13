@@ -384,6 +384,11 @@ hash = "15b6398e5bd4cb0f958cfd2d7685e90f2bfe988a400d748dd33af077d0431c3c"
 metafile = true
 
 [[files]]
+file = "mods/euphoria-patches.pw.toml"
+hash = "d7dfab3b3d6594898363b8ab807f2fb3598ec3be622ae952831460d56c145b3f"
+metafile = true
+
+[[files]]
 file = "mods/explorers-compass.pw.toml"
 hash = "35bad9f01671b5b4284ad547dab6635b2a029980c88d82007690e9232a5cb420"
 metafile = true
