@@ -90,7 +90,7 @@ for (let batchIndex = 0; batchIndex < indexFiles.length; batchIndex += 100) {
 }
 
 console.log("Removing old files...");
-for await (const file of glob(join(installDir.pathname.substring(1), "**", "*.*"))) {
+for await (const file of glob(join(fileURLToPath(installDir), "**", "*.*"))) {
 	const fileURL = new URL(`file://${file}`);
 	if (!downloadedFiles.includes(fileURL.pathname)) {
 		await unlink(fileURL);
