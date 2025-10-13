@@ -454,6 +454,11 @@ hash = "3d38d89c5adddec6a9c1352e3c4ced3f0c80639f1f11da237aac883e629998e8"
 metafile = true
 
 [[files]]
+file = "mods/gobber.pw.toml"
+hash = "cac1dc3bc87f45638f37828d1099e31943e119e4766f953ae7b88a2ce4c33415"
+metafile = true
+
+[[files]]
 file = "mods/immediatelyfast.pw.toml"
 hash = "4c9abda63d99719987d4a461997f4e627256a23f6e605ebb06bc30752fae0099"
 metafile = true
