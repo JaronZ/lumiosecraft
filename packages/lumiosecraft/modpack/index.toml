@@ -599,6 +599,11 @@ hash = "3db5943419e6b6f4e33946266be8797230434573bc68dbe3a77d72f19001ae0c"
 metafile = true
 
 [[files]]
+file = "mods/parcool.pw.toml"
+hash = "764287f55e74df4514593b9b53433bdbe887bbd9c0c68bff24900a47312fcbed"
+metafile = true
+
+[[files]]
 file = "mods/pkgbadges.pw.toml"
 hash = "6f52a96d0baed0b8f1e4dc9fe9703b0dccec938e7220caaceaac01b53478d81d"
 metafile = true
