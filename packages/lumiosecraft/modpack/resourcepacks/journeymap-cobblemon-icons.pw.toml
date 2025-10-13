@@ -1,13 +1,13 @@
 name = "Maxi's JourneyMap Cobblemon Minimap Icons"
-filename = "Maxi's-JM+CM_Pixel.zip"
+filename = "Maxi's-JM+CM_Pixel-U7.zip"
 side = "client"
 
 [download]
 hash-format = "sha1"
-hash = "bab71d23395a6e622ccec08dcd26e56834e1a26a"
+hash = "ca1a0d0257ea37f7f67c68dc692a0fab0d87f624"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 6135214
+file-id = 6652850
 project-id = 845819
