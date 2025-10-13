@@ -6,46 +6,94 @@ hash = "20eb5e6c58dcca77c1438b7dfb4c81f746a927fbb2228ca906ee6eefd932cda3"
 
 [[files]]
 file = "config/corpse-server.toml"
-hash = "ba72e43f9573dd58e61b2f03ae9e6f9bfba439133c23791421c0a1936eabfa41"
+hash = "e1c6bf967526780b47e5eb2e385fce23f02c5ad4c776975faac614a43aedd6e2"
 
 [[files]]
 file = "config/defaultoptions/keybindings.txt"
-hash = "2c7e24a842b92218f410beb373a9a2202466d66016609940bde064162209ba7b"
+hash = "e9c8627205a06af81529fe9e76f7f4bb36c6322f9083b9c54bed838bf5072add"
 
 [[files]]
 file = "config/defaultoptions/options.txt"
-hash = "24e3885e32f84d8a71082ad9a8d90c912210b5dbf4bdbcb148746a447c599879"
+hash = "e5caeb3fc4a2852d65c4960fc180b7f4df3e5dc24643ea7d100bc32adcf51272"
 
 [[files]]
 file = "config/mega_showdown-common.toml"
-hash = "b104bc16997cb8e127fc16d3a77513b2f10f37c45bef7c46e80c8d821992c5a4"
+hash = "e2c8aa2f59df9c5a372f680cf85430d662035b3f508e3113ee26da2839cb8b84"
 
 [[files]]
 file = "config/rctmod-server.toml"
-hash = "78511392a2b70567b66deb87fe7cdfd20b93097bccad949ccffc4fbff06e188d"
+hash = "00f2c8db567621b6853d5089bc2be4f36b50c1984decdfcc3416baea62984f6c"
 
 [[files]]
 file = "defaultconfigs/ftbchunks/client-config.snbt"
-hash = "a65dfa2e732b95535a7fa5c6b854026bd8483c64499ee50f23d9a38789ffcc00"
+hash = "83c48197e4bfbd40904fe296eb3827ff5dadaacbccf0808dc8a2bf10ea881ee1"
 
 [[files]]
 file = "defaultconfigs/ftbchunks/ftbchunks-world.snbt"
-hash = "23334f893be974d42d7ab654bde82a7e9fc6fe30a726263d9f58cbef5ec42cee"
+hash = "c07e5ae88c6b2e54422eb82fea849a05afd1f26bf99f1b55d896f90954fc40ef"
 
 [[files]]
 file = "defaultconfigs/ftblibrary/ftblibrary-client.snbt"
-hash = "35fe0e2c68fa1aefef8430c4ce4a7310d35f34f9796c8bb91b714b7593966b67"
+hash = "ab4e26d807f3eab83934506f37bf3d514a84d978bd00a7ffb43405daf5b8814e"
 
 [[files]]
-file = "kubejs/client_scripts/client.js"
+file = "kubejs/client_scripts/main.js"
 hash = "5ecf2f4d83e6260dabd6ec48e76d8ddebccf956563f34072221bf960d3b8c255"
 
 [[files]]
-file = "kubejs/server_scripts/server.js"
-hash = "5ecf2f4d83e6260dabd6ec48e76d8ddebccf956563f34072221bf960d3b8c255"
+file = "kubejs/data/create_things_and_misc/recipe/chorus_sail_craft.json"
+hash = "74de9b97f470fcb3b974798b9802df77c115cf9b796e89cafdc5037148593d49"
 
 [[files]]
-file = "kubejs/startup_scripts/startup.js"
+file = "kubejs/data/create_things_and_misc/recipe/copper_scaffolding_craft.json"
+hash = "74de9b97f470fcb3b974798b9802df77c115cf9b796e89cafdc5037148593d49"
+
+[[files]]
+file = "kubejs/data/create_things_and_misc/recipe/jaboticaba_sail_craft.json"
+hash = "74de9b97f470fcb3b974798b9802df77c115cf9b796e89cafdc5037148593d49"
+
+[[files]]
+file = "kubejs/data/create_things_and_misc/recipe/raboutan_sail_c_raft.json"
+hash = "74de9b97f470fcb3b974798b9802df77c115cf9b796e89cafdc5037148593d49"
+
+[[files]]
+file = "kubejs/data/create_things_and_misc/recipe/schematic_chair.json"
+hash = "74de9b97f470fcb3b974798b9802df77c115cf9b796e89cafdc5037148593d49"
+
+[[files]]
+file = "kubejs/data/refinedstorage/advancement/autocrafting.json"
+hash = "5e3da888ae6f3e662f9a770c976906cfa87036f8eafd0ab7248ea393642bbf26"
+
+[[files]]
+file = "kubejs/data/refinedstorage/advancement/no_cables_required.json"
+hash = "bc9fa5592e397e2d98f3882ea88e6405aeaee8863811e2f67c7955d3b61eb73b"
+
+[[files]]
+file = "kubejs/data/refinedstorage/advancement/portable_storage.json"
+hash = "332d775abf63b1f38e1159056d8de38e3da2883c9c0660637fa678201745737c"
+
+[[files]]
+file = "kubejs/data/refinedstorage/advancement/root.json"
+hash = "ab2b6fe12cea989ad96d0be6260fa85ddd7cb24b677bc5e35d8577e46b0fd89c"
+
+[[files]]
+file = "kubejs/data/refinedstorage/advancement/security.json"
+hash = "8f799731a5c9639b1e5ee377e4fb929beeb1c0817539e63b54cbf7ea24bdb968"
+
+[[files]]
+file = "kubejs/data/refinedstorage/advancement/wireless.json"
+hash = "84e7ed83d489a1f0adf4635be8d99aefc83fb71851086f75ed2a57e85b2796dd"
+
+[[files]]
+file = "kubejs/data/refinedstorage/advancement/wireless_monitoring.json"
+hash = "165402354f9f8cbcba13ac8c9fe8e54aa0204ed57f77648fec244a5ffe1e83c3"
+
+[[files]]
+file = "kubejs/server_scripts/main.js"
+hash = "4214efe43197e1d1683d5dba2cc25d1fbbce21e4033481ce93e1b53d23ac95c7"
+
+[[files]]
+file = "kubejs/startup_scripts/main.js"
 hash = "5ecf2f4d83e6260dabd6ec48e76d8ddebccf956563f34072221bf960d3b8c255"
 
 [[files]]
@@ -110,7 +158,7 @@ metafile = true
 
 [[files]]
 file = "mods/bluemap.pw.toml"
-hash = "434a7b340624e0e0cd3229d24c4816ca1acfbd4980136a0096197bced54cf884"
+hash = "ff5879f6ad48b7a48c391054e26ef4d70b96f7339bff3bec28877e0ab919f998"
 metafile = true
 
 [[files]]
@@ -405,7 +453,7 @@ metafile = true
 
 [[files]]
 file = "mods/euphoria-patches.pw.toml"
-hash = "d7dfab3b3d6594898363b8ab807f2fb3598ec3be622ae952831460d56c145b3f"
+hash = "9447f591f1c5e0e359e6c1f1436de266bb91c9de9274a3010322d9fea6b1c64a"
 metafile = true
 
 [[files]]
@@ -760,7 +808,7 @@ metafile = true
 
 [[files]]
 file = "mods/twod-projectiles.pw.toml"
-hash = "b170801396355efdb4e8a87124b75218c9226b944ef680927e2737c06bbb8b82"
+hash = "8e34dc13b6f114fd9811fc414feeb3a8ffab28cd56c1a341e596823c5e74be58"
 metafile = true
 
 [[files]]
