@@ -75,7 +75,7 @@ metafile = true
 
 [[files]]
 file = "mods/architectury-api.pw.toml"
-hash = "6d3a1c92eee4dd671253c41ec000ae48064a33c45263d6adce5cad466395169d"
+hash = "ea336d25c3e21ef168aec20e1ea470c96949ad29632646ee8e8ab0d74b4bbfc9"
 metafile = true
 
 [[files]]
@@ -240,12 +240,17 @@ metafile = true
 
 [[files]]
 file = "mods/cobblemon.pw.toml"
-hash = "a292645eacc6a5e6a322796a436c4fb48af0fd4e0212eb3221f13f31785d44d3"
+hash = "e3cb1eb238192071af93f764e3ff2c493f4f437802bb56273f664bafdea13f1d"
 metafile = true
 
 [[files]]
 file = "mods/cobblemonrider.pw.toml"
 hash = "a3a751bc0e92babef8612f7f6068510c78c9fdac0c80e94fd553f7f83502cdd3"
+metafile = true
+
+[[files]]
+file = "mods/cobbreeding.pw.toml"
+hash = "7d4a4a7e1948d6377ad30143570b5123fccf3696b81003280cfa6de9e906c2a8"
 metafile = true
 
 [[files]]
@@ -525,7 +530,7 @@ metafile = true
 
 [[files]]
 file = "mods/kotlin-for-forge.pw.toml"
-hash = "7fbe3225c134e823a07f3aecedace39fe866f327671ecca928f134399b94008d"
+hash = "1a9ec5beaba1be3151b8710db2bfab90c2063a4dafaf2720336852245a145cc4"
 metafile = true
 
 [[files]]
