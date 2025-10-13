@@ -784,6 +784,11 @@ hash = "6dc8b6b822d296d026dc2685f57da95746e57f30f501640801546ba7a259b520"
 metafile = true
 
 [[files]]
+file = "mods/yungs-better-mineshafts-neoforge.pw.toml"
+hash = "c2053af07ae41f932040eaa078a7d22438cbb0bf16ebcf0926740dd8777f9498"
+metafile = true
+
+[[files]]
 file = "resourcepacks/allthemons.pw.toml"
 hash = "ac5e57bef7fd03ecc60cbb0283f975dd3b4bc9ce2f6c911b3c5433f01a7d5d38"
 metafile = true
