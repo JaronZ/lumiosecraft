@@ -24,6 +24,6 @@
 		"@favware/cliff-jumper": "^6.0.0",
 		"npm-run-all2": "^8.0.4",
 		"tsup": "^8.5.0",
-		"typescript": "^5.8.3"
+		"typescript": "^5.9.3"
 	}
 }
