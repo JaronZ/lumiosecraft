@@ -769,6 +769,11 @@ hash = "31b790264c547f133124a0550492cd60adb6051ea89e1bc66e41757c729cd7be"
 metafile = true
 
 [[files]]
+file = "mods/yungs-better-dungeons.pw.toml"
+hash = "e69be521bff22311441c2ea7925bb797b685c18a77757378f8788b135548a8ee"
+metafile = true
+
+[[files]]
 file = "resourcepacks/allthemons.pw.toml"
 hash = "ac5e57bef7fd03ecc60cbb0283f975dd3b4bc9ce2f6c911b3c5433f01a7d5d38"
 metafile = true
