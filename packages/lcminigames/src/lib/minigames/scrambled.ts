@@ -21,12 +21,11 @@ lcminigames.minigames.set("scrambled", {
 		];
 	},
 	shouldEnd({ message }: $PlayerChatReceivedKubeEvent_): boolean {
-		return message.toLowerCase() === this.currentWord;
+		return message.toLowerCase() === this.currentWord.toLowerCase();
 	},
 	execute({ server }: $ServerKubeEvent_) {
 		this.currentWord = lcminigames.Pokemon.getRandom()
-			.getName()
-			.toLowerCase();
+			.getName();
 		const scrambled = global.lcminigames.scramble(this.currentWord);
 		server.tell(
 			global.lcminigames.createChatFrame("Server Minigame", [
