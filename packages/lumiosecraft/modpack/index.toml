@@ -25,6 +25,14 @@ file = "config/rctmod-server.toml"
 hash = "00f2c8db567621b6853d5089bc2be4f36b50c1984decdfcc3416baea62984f6c"
 
 [[files]]
+file = "config/sereneseasons/fertility.toml"
+hash = "ead7a0aead62bcd6b3c6ed3671538ca0c70cef3ff32f30348b4b9adfc6ceeb75"
+
+[[files]]
+file = "config/sereneseasons/seasons.toml"
+hash = "267f2466054cf85056c297896eb27bf89fe4927704b800a8b33e41b222c06896"
+
+[[files]]
 file = "defaultconfigs/ftbchunks/client-config.snbt"
 hash = "83c48197e4bfbd40904fe296eb3827ff5dadaacbccf0808dc8a2bf10ea881ee1"
 
@@ -123,7 +131,7 @@ metafile = true
 
 [[files]]
 file = "mods/architectury-api.pw.toml"
-hash = "ea336d25c3e21ef168aec20e1ea470c96949ad29632646ee8e8ab0d74b4bbfc9"
+hash = "6d3a1c92eee4dd671253c41ec000ae48064a33c45263d6adce5cad466395169d"
 metafile = true
 
 [[files]]
@@ -267,6 +275,11 @@ hash = "21047c8c15774ce32b4b59aee387daa7532d59b7bdf85f61af63dca5fef61ae9"
 metafile = true
 
 [[files]]
+file = "mods/cobblemon-ride-on.pw.toml"
+hash = "f6a75197e0fe9e81c209ea602ea0e1a96f2687e05d6e1bd6bb2b1ef74a898ee3"
+metafile = true
+
+[[files]]
 file = "mods/cobblemon-spawn-notification.pw.toml"
 hash = "3947119f6fde2f8efc3b06cb7619a5a94924943451254e74d1ab8d2bc085fe9f"
 metafile = true
@@ -288,17 +301,12 @@ metafile = true
 
 [[files]]
 file = "mods/cobblemon.pw.toml"
-hash = "e3cb1eb238192071af93f764e3ff2c493f4f437802bb56273f664bafdea13f1d"
+hash = "a292645eacc6a5e6a322796a436c4fb48af0fd4e0212eb3221f13f31785d44d3"
 metafile = true
 
 [[files]]
 file = "mods/cobblemonraiddens.pw.toml"
 hash = "bda6fd5b1505f1c89d5d18ed2f12e4d07cb0d3bdad9508c90e189d7c365a8d54"
-metafile = true
-
-[[files]]
-file = "mods/cobblemonrider.pw.toml"
-hash = "a3a751bc0e92babef8612f7f6068510c78c9fdac0c80e94fd553f7f83502cdd3"
 metafile = true
 
 [[files]]
@@ -314,11 +322,6 @@ metafile = true
 [[files]]
 file = "mods/configured.pw.toml"
 hash = "e6fb89a1a4fa847fbf9c8492702bd452a37aa73b677b471bbffe685690f6bd0f"
-metafile = true
-
-[[files]]
-file = "mods/connector-extras.pw.toml"
-hash = "179ec97bb6d278f2012c725fdfab2c5b00adb529e4f720587ce6c3409aaa572f"
 metafile = true
 
 [[files]]
@@ -477,11 +480,6 @@ hash = "942b02525962980b6176677cca162d27c1210b686985ad11db0055fe39d42a7d"
 metafile = true
 
 [[files]]
-file = "mods/forgified-fabric-api.pw.toml"
-hash = "c3943921aff04f28e8dbb2a8d2ec45ad340a29f48c0282478d61335601af199a"
-metafile = true
-
-[[files]]
 file = "mods/ftb-chunks-forge.pw.toml"
 hash = "c0ba624dd96872da93db0765516e59c1dac13d2c8c4d31a4111594e9ba52a252"
 metafile = true
@@ -593,7 +591,7 @@ metafile = true
 
 [[files]]
 file = "mods/kotlin-for-forge.pw.toml"
-hash = "1a9ec5beaba1be3151b8710db2bfab90c2063a4dafaf2720336852245a145cc4"
+hash = "7fbe3225c134e823a07f3aecedace39fe866f327671ecca928f134399b94008d"
 metafile = true
 
 [[files]]
@@ -713,7 +711,7 @@ metafile = true
 
 [[files]]
 file = "mods/reeses-sodium-options.pw.toml"
-hash = "e5a88eeea38105e024dc8c8849e28d90af25cec68f1d0f6716796fe9746bddd2"
+hash = "6a48780ffd4bc3b941f81232c84034aba5ff7645ea635c604de6df71e6596bb3"
 metafile = true
 
 [[files]]
@@ -743,7 +741,7 @@ metafile = true
 
 [[files]]
 file = "mods/seasonhud.pw.toml"
-hash = "0ae2a52c5eac93073179cf8bc180ff8c91ad7723bc0f758096467bef39b0c819"
+hash = "3d1b03ad9f7db451b4f881529acfd1b44a8864b3d2b63a427f62056f9ae19842"
 metafile = true
 
 [[files]]
@@ -764,11 +762,6 @@ metafile = true
 [[files]]
 file = "mods/simpletms-tms-and-trs-for-cobblemon.pw.toml"
 hash = "1a40ee0fdcbd94b87182b40ab7673c61f1e2778f8defca995e44b3eba6200d47"
-metafile = true
-
-[[files]]
-file = "mods/sinytra-connector.pw.toml"
-hash = "12a0518bada653ba9fc76eaa8d31e816318534eaf9782d7e6e5fe540b6b8f231"
 metafile = true
 
 [[files]]
