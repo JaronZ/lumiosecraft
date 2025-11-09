@@ -1,6 +1,6 @@
 name = "JER Integration"
 filename = "jerintegration-6.5.0.jar"
-side = "both"
+side = "client"
 
 [download]
 hash-format = "sha1"
