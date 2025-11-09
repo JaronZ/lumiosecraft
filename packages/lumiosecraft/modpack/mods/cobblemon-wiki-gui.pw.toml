@@ -1,0 +1,13 @@
+name = "Cobblemon Wiki Gui"
+filename = "CobblemonWikiGui-neoforge-2.0.2+1.21.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "e0288fdbfb01179bab6c66f2d4a3cfd4edf3aabe"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6746586
+project-id = 1042000
