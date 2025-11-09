@@ -292,6 +292,11 @@ hash = "e3cb1eb238192071af93f764e3ff2c493f4f437802bb56273f664bafdea13f1d"
 metafile = true
 
 [[files]]
+file = "mods/cobblemonraiddens.pw.toml"
+hash = "bda6fd5b1505f1c89d5d18ed2f12e4d07cb0d3bdad9508c90e189d7c365a8d54"
+metafile = true
+
+[[files]]
 file = "mods/cobblemonrider.pw.toml"
 hash = "a3a751bc0e92babef8612f7f6068510c78c9fdac0c80e94fd553f7f83502cdd3"
 metafile = true
