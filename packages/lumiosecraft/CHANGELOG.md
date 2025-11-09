@@ -2,6 +2,19 @@
 
 All notable changes to this project will be documented in this file.
 
+# [@jaronz/lumiosecraft@0.9.0](https://github.com/jaronz/lumiosecraft/compare/@jaronz/lumiosecraft@0.8.0...@jaronz/lumiosecraft@0.9.0) - (2025-11-09)
+
+## 🐛 Bug Fixes
+
+- Make JER Integration client-only ([d9994d0](https://github.com/jaronz/lumiosecraft/commit/d9994d00c545b9d4bfd78541de005f79d76ff5e0)) ([#89](https://github.com/jaronz/lumiosecraft/pull/89) by @JaronZ)
+
+## 🚀 Features
+
+- Added Cobblemon Wiki Gui mod ([886bb63](https://github.com/jaronz/lumiosecraft/commit/886bb63566f4a8b15e671d30c0a31d7025a3dd59)) ([#90](https://github.com/jaronz/lumiosecraft/pull/90) by @JaronZ)
+- Replace Cobblemonrider with Cobblemon Ride On ([9196983](https://github.com/jaronz/lumiosecraft/commit/9196983e8b0c239025a93af62e65d970ec7ef4a8)) ([#88](https://github.com/jaronz/lumiosecraft/pull/88) by @JaronZ)
+- Added Serene Seasons mod ([f6c62d0](https://github.com/jaronz/lumiosecraft/commit/f6c62d0120d948372a14665c337c5a033cd83253)) ([#87](https://github.com/jaronz/lumiosecraft/pull/87) by @JaronZ)
+- Added Cobblemon Raid Dens mod ([af8a892](https://github.com/jaronz/lumiosecraft/commit/af8a892b0b429d577b91cd02c22108dac1f201cf)) ([#86](https://github.com/jaronz/lumiosecraft/pull/86) by @JaronZ)
+
 # [@jaronz/lumiosecraft@0.8.0](https://github.com/jaronz/lumiosecraft/tree/@jaronz/lumiosecraft@0.8.0) - (2025-10-13)
 
 ## 🐛 Bug Fixes
