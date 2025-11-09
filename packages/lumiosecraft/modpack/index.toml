@@ -742,8 +742,18 @@ hash = "b210b54498abff891f524a0ce32b7b81bfc88043604065bd4ece9e71c36427f4"
 metafile = true
 
 [[files]]
+file = "mods/seasonhud.pw.toml"
+hash = "0ae2a52c5eac93073179cf8bc180ff8c91ad7723bc0f758096467bef39b0c819"
+metafile = true
+
+[[files]]
 file = "mods/selene.pw.toml"
 hash = "ae6b37c258413c12b87313ca99bfacbb5ec14636b89a06bbecebb4e389e97c02"
+metafile = true
+
+[[files]]
+file = "mods/serene-seasons.pw.toml"
+hash = "eb438b9d4a49c0cc65560cdc295bf927cabc6f34319375a0cfbf3aece662add8"
 metafile = true
 
 [[files]]
