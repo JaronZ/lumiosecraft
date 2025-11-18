@@ -32,7 +32,7 @@ jobs:
         with:
           node-version: 22
       - name: Install nix
-        uses: cachix/install-nix-action@526118121621777ccd86f79b04685a9319637641 # v31
+        uses: cachix/install-nix-action@0b0e072294b088b73964f1d72dfdac0951439dbd # v31
       - name: Build Package
         run: yarn build
       - name: Export CurseForge Package
