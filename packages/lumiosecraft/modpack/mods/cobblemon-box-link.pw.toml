@@ -1,13 +1,13 @@
 name = "Cobblemon Box Link"
-filename = "cobblemonboxlink-neoforge-1.21.1-1.0.4.jar"
+filename = "cobblemonboxlink-neoforge-1.21.1-1.0.5.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "141fe537c577d6b6477af0858a7d97ebefce3e53"
+hash = "8f68eccc8e7a92022c7e7c356df35e001e92d1ed"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 6320774
+file-id = 7250811
 project-id = 1179289

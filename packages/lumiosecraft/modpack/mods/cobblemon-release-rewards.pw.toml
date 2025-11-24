@@ -1,13 +1,13 @@
 name = "Cobblemon: Parting Gifts"
-filename = "releaserewards-neoforge-3.0.0.jar"
+filename = "releaserewards-neoforge-3.0.1.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "ebda829a59e9924390759648d83301a6c855b1ef"
+hash = "c1c44d0e48a1d9a649e637aed1777f01f1da7198"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 6954229
+file-id = 7250529
 project-id = 1169308
