@@ -1,13 +1,13 @@
 name = "Myths and Legends [Cobblemon Sidemod]"
-filename = "MythsAndLegends-neoforge-1.8.0.jar"
+filename = "MythsAndLegends-neoforge-1.9.0.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "bfbd694b151432957449e862023c1a0929d6f51e"
+hash = "b90873d4a478753d099e641d7f1b7649c360e868"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 6560667
+file-id = 7255754
 project-id = 1037337
