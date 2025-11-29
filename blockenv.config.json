@@ -9,7 +9,7 @@
 			"playerName": "DevPlayer",
 			"loader": {
 				"name": "neoforge",
-				"version": "21.1.209"
+				"version": "21.1.214"
 			},
 			"arguments": {
 				"jvm": ["-Xmx6G"]
@@ -21,7 +21,7 @@
 			"path": "server",
 			"loader": {
 				"name": "neoforge",
-				"version": "21.1.209"
+				"version": "21.1.214"
 			}
 		}
 	}
