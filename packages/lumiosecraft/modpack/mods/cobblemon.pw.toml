@@ -1,13 +1,13 @@
 name = "Cobblemon"
-filename = "Cobblemon-neoforge-1.6.1+1.21.1.jar"
+filename = "Cobblemon-neoforge-1.7.0+1.21.1.jar.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "990917e7755543545fe09ca44ec6a05ffdb767e0"
+hash = "0f39652be6d3db636c64b03bf83ce956998827e9"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 6125026
+file-id = 7247564
 project-id = 687131

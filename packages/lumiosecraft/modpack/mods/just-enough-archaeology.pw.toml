@@ -7,11 +7,6 @@ hash-format = "sha1"
 hash = "6f69ac6b014838f0732cfb67245c9d03ae54a446"
 mode = "metadata:curseforge"
 
-[option]
-optional = true
-default = false
-description = "Adds a view for items that Sniffers can dig up as well as a view for items that can be found in suspicious sand and gravel."
-
 [update]
 [update.curseforge]
 file-id = 6329637
