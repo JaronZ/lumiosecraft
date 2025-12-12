@@ -41,7 +41,7 @@ jobs:
           mkdir -p export
           yarn ci:curseforge:export
       - name: Upload Exported Packages
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@b7c566a772e6b6bfb58ed0dc250532a479d7789f # v6
         with:
           name: export
           path: packages/${{ inputs.package }}/export/
@@ -67,7 +67,7 @@ jobs:
           ref: main
           token: ${{ steps.create-token.outputs.token }}
       - name: Download Exported Packages
-        uses: actions/download-artifact@v5
+        uses: actions/download-artifact@37930b1c2abaa49bbe596cd826c3c89aef350131 # v7
         with:
           name: export
           path: ./export/
